@@ -3,7 +3,13 @@ import ButtonProps from '../componentProps/Button';
 import style from '../styles/Button.css';
 import generateStyle from '../utils/generateStyle';
 
-const SSButton = ({ size, color, behavior, clickAction, children }) => (
+const SSButton = ({
+    size,
+    color,
+    behavior,
+    clickAction,
+    children,
+}) => (
     <button
         style={generateStyle('SSButton', style, { size, color, behavior })}
         onClick={clickAction}

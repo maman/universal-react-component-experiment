@@ -1,0 +1,74 @@
+/** Variable imports */
+@value neutral, red, blue, orange, green, black from './globals/Colors.css';
+@value contrastText, neutralText from './globals/Colors.css';
+@value smallText, largeText from './globals/Dimensions.css';
+
+/**
+ * Base component style
+ */
+.SSButton {
+    display: inline-block;
+    border: none;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .4);
+    background-color: #aaa;
+    color: #222;
+}
+
+/**
+ * Overrides
+ */
+
+/** Disabled: true */
+.SSButton-disabled {
+    opacity: 0.6;
+}
+
+/** Size: small */
+.SSButton-small {
+    font-size: 10px;
+}
+
+/** Size: large */
+.SSButton-large {
+    font-size: 18px;
+}
+
+/** Color: red */
+.SSButton-red {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .4);
+    background-color: red;
+    color: #ddd;
+}
+
+/** Color: blue */
+.SSButton-blue {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .4);
+    background-color: blue;
+    color: #ddd;
+}
+
+/** Color: orange */
+.SSButton-orange {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .4);
+    background-color: orange;
+    color: #ddd;
+}
+
+/** Color: green */
+.SSButton-green {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .4);
+    background-color: green;
+    color: #ddd;
+}
+
+/** Color: black */
+.SSButton-black {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .4);
+    background-color: black;
+    color: #ddd;
+}
+
+/** behavior: block */
+.SSButton-block {
+    display: block;
+}
