@@ -10,7 +10,7 @@ const config = {
     entry: './index.js',
     output: {
         path: buildPath,
-        filename: 'build-[chunkhash].js',
+        filename: 'build-[hash].js',
         publicPath: '/',
     },
     devServer: {
