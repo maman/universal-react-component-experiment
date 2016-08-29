@@ -24,7 +24,6 @@ const config = {
         loaders: [
             {
                 test: /\.js$/,
-                exclude: /node_modules/,
                 loaders: [
                     'react-hot',
                     'babel',
@@ -32,7 +31,6 @@ const config = {
             },
             {
                 test: /\.css$/,
-                exclude: /node_modules/,
                 loaders: [
                     'style',
                     'css?sourceMap&modules',

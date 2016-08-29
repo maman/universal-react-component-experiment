@@ -1,3 +1,3 @@
-import SSButton from 'universal-react-component-experiment/src/web/Button';
+import SSButton from 'universal-react-component-experiment/web/Button';
 
 console.log(SSButton);
